@@ -1,0 +1,26 @@
+nav {
+    font-family: 'Alkatra', cursive;
+    font-size: 30px;
+    max-width: 30%;
+    height: 30%;
+    margin: 20px;
+} 
+
+.container {
+   margin: 20px;
+   border-width: 5px;
+  }
+
+.column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+  }
+
+.column img {
+    margin-right: 0px;
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+  }
+  
